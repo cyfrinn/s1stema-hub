@@ -1,0 +1,67 @@
+body {
+    color: #3E3232;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    font-family: "Sans-serif";
+    font-weight: 700;
+}
+
+.small-calendar-container {
+    background: #FAEED1;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #3E3232;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+    margin: 0 0 0 55%;
+}
+
+.small-calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.small-calendar-header h2 {
+    margin: 30px 200px 50px 200px;
+    font-size: 1em;
+}
+
+.small-calendar {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.75em;
+}
+
+.small-calendar th, .small-calendar td {
+    border: 1px solid #3E3232;
+    padding: 5px;
+    text-align: center;
+}
+
+.small-calendar td.other-month {
+    background-color: #DED0B6;
+}
+
+.small-calendar td.current-day {
+    background-color: #f5d09a;
+}
+
+.small-calendar-header button {
+    border: 1px solid #3E3232;
+    background: #FAEED1;
+    font-size: 1.25em;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+}
+
+.small-calendar-header button:hover {
+    background: #3E3232;
+}
+
+.small-calendar-header button:active {
+    background: #FAEED1;
+}

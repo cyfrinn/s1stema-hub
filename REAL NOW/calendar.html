@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compact Calendar</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <div class="small-calendar-container">
+        <div class="small-calendar-header">
+            <button id="prev-month">←</button>
+            <h2 id="month-year"></h2>
+            <button id="next-month">→</button>
+        </div>
+
+        <table class="small-calendar">
+            <thead>
+                <tr>
+                    <th>Su</th>
+                    <th>Mo</th>
+                    <th>Tu</th>
+                    <th>We</th>
+                    <th>Th</th>
+                    <th>Fr</th>
+                    <th>Sa</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Calendar days will be dynamically generated here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html>
